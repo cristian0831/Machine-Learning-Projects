@@ -20,7 +20,7 @@ Feature engine: build new features increasing the correlation with the response 
 Data cleaning (preparing for ML): handle missing data and encoding categorical attributes.
 Train Model: using RandomForestClassifier train the model on training set to predict how will response the customer. 
 Evaluate performance: 
-1) use cross validation to calculate scores (on trining data) on the first class (income_feature, prob_answer_1).
+1) use cross validation to calculate scores (on training data) on the first class (income_feature, prob_answer_1).
 2) calculate metrics on training and scores data; precision, recall, finding the most appropiate threshold.
 3) print confusion matrix using test data (unseen customers) and understand what says the metrics.
 4) estimate the ROI.
